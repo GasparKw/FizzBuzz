@@ -16,6 +16,11 @@ public class FizzBuzzTest {
 	public void fizzBuzz_of1is1() {
 		assertThat(FizzBuzz.of(1), is("1"));
 	}
+	
+	@Test
+	public void fizzBuzz_of3isFizz() {
+		assertThat(FizzBuzz.of(3), is("Fizz"));
+	}
 
 }
 
