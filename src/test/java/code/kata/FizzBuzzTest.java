@@ -26,6 +26,10 @@ public class FizzBuzzTest {
 	public void fizzBuzz_of5isBuzz() {
 		assertThat(FizzBuzz.of(5), is("Buzz"));
 	}
-
+	
+	@Test
+	public void fizzBuzz_of6isFizz() {
+		assertThat(FizzBuzz.of(6), is("Fizz"));
+	}
 }
 
